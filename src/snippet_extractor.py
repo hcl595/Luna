@@ -1,3 +1,7 @@
+"""
+extract code examples of calling apis
+"""
+
 import jieba
 import requests
 from bs4 import BeautifulSoup
