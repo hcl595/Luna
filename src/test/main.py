@@ -1,12 +1,12 @@
-import urllib.request
-
 import jieba
+import requests
 from bs4 import BeautifulSoup
 
 # url = "https://github.com/MetaGLM/zhipuai-sdk-python-v4"
 url = "https://github.com/openai/openai-python"
-response1 = urllib.request.urlopen(url)
-html = response1.read()
+
+response = requests.get(url)
+html = response.text
 soup = BeautifulSoup(html, "html.parser")
 judge = True
 
