@@ -1,4 +1,3 @@
-
 import openai
 
 # optional; defaults to `os.environ['OPENAI_API_KEY']`
