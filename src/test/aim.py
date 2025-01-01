@@ -1,8 +1,7 @@
-
 import openai
 
 # optional; defaults to `os.environ['OPENAI_API_KEY']`
-openai.api_key = '...'
+openai.api_key = "..."
 
 # all client options can be configured just like the `OpenAI` instantiation counterpart
 openai.base_url = "https://..."
