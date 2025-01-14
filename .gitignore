@@ -194,3 +194,4 @@ src_macOS/
 ### User Added ###
 example.py
 queryForDsply.json
+./src/api/test/*
