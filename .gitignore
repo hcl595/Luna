@@ -175,12 +175,19 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+
+### User Added ###
+example.py
+queryForDsply.json
+./src/test/*
 ChatGLM
 Llama2
 Assistant
 .vscode
 stable-diffusion-webui
 tmp
+src/api/data/*
 src/data/*
 src/templates/test.html
 release/
@@ -190,8 +197,3 @@ output/
 src/test.py
 packages/
 src_macOS/
-
-### User Added ###
-example.py
-queryForDsply.json
-./src/api/test/*
