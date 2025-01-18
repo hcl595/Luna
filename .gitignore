@@ -196,4 +196,4 @@ setup.iss
 output/
 src/test.py
 packages/
-src_macOS/ 
+*/example.py
